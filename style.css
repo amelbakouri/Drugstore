@@ -5,14 +5,11 @@ li>a{
    color: rgb(58, 57, 57);
    letter-spacing: 1px;
 }
-footer>ul>li>{
+footer>ul>li{
     list-style: none;
 }
 
-#logo{
-    width: 200px;
-    
-}
+
 #small{
     width: auto;
     height: auto;
@@ -115,15 +112,10 @@ footer>ul>li>{
 
 
 @media only screen and (min-width: 765px) and (max-width: 990px){
-    #logo1{
+    #logo1,#logo2, #logo3 {
         width: 100%;
     }
-    #logo2{
-        width: 100%;
-    }
-    #logo3{
-        width: 100%;
-    }
+   
     #img_footer{
         height: 450px;
     }
@@ -138,11 +130,7 @@ footer>ul>li>{
         height: 480px;
     }
 }
-@media only screen and (min-width: 575px) and (max-width: 649px){
-    #img_footer{
-        height: 480px;
-    }
-}
+
 @media only screen and (min-width: 305px) and (max-width: 574px){
     #img_footer{
         height: 650px;
