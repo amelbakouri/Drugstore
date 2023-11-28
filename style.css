@@ -9,6 +9,10 @@ footer>ul>li{
     list-style: none;
 }
 
+#logo{
+    width: 200px;
+    
+}
 
 #small{
     width: auto;
@@ -18,13 +22,12 @@ footer>ul>li{
     margin-right:auto;
 }
 .hr {
-    /* centre verticalement les enfants entre eux */
+
     align-items: center;
 
-    /* active flexbox */
     display: flex;
 
-    /* garde le texte centré s’il passe sur plusieurs lignes ou si flexbox n’est pas supporté */
+
     text-align: center;
 
     font-size: 1.5rem;
